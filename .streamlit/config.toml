@@ -1,0 +1,34 @@
+[server]
+# Set the port where the server will listen for client and browser connections
+port = 8501
+# Enable or disable CORS protection
+enableCORS = false
+# Set the address where the server will listen for client and browser connections
+address = "0.0.0.0"
+
+[browser]
+# Whether to open a browser on start
+serverAddress = "localhost"
+
+[theme]
+# Primary color for interactive elements
+primaryColor = "#E63946"
+
+# Background color for the main content area
+backgroundColor = "#F1FAEE"
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = "#A8DADC"
+
+# Color for text
+textColor = "#1D3557"
+
+# Font style: choose between "sans serif", "serif", and "monospace"
+font = "monospace"
+
+# These are optional theme settings
+# Color for all error messages in the app
+fontColorError = "#E63946"
+
+# Color for the top bar in a multi-page app
+fontColorHeading = "#E63946"
