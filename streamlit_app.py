@@ -17,11 +17,6 @@ st.set_page_config(
     layout="wide", page_title="Movie Recommender System", page_icon="❄️"
 )
 
-
-import streamlit as st
-import pandas as pd
-import numpy as np
-
 # Constants for file paths or URLs
 URL_MOVIES = 'https://liangfgithub.github.io/MovieData/movies.dat?raw=true'
 URL_RATINGS = 'https://liangfgithub.github.io/MovieData/ratings.dat?raw=true'
